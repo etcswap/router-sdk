@@ -26,14 +26,15 @@
   ],
   "license": "MIT",
   "resolutions": {
-    "@uniswap/sdk-core": "git+https://github.com/etcswap/sdk-core.git#etcswap"
+    "@uniswap/sdk-core": "git+https://github.com/etcswap/sdk-core.git#etcswap",
+    "@uniswap/v3-sdk": "git+https://github.com/etcswap/v3-sdk.git#etcswap"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
     "@uniswap/sdk-core": "git+https://github.com/etcswap/sdk-core.git#etcswap",
     "@uniswap/swap-router-contracts": "1.1.0",
     "@uniswap/v2-sdk": "^3.2.0",
-    "@uniswap/v3-sdk": "^3.10.0"
+    "@uniswap/v3-sdk": "git+https://github.com/etcswap/v3-sdk.git#etcswap"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
