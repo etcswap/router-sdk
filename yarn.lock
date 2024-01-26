@@ -1577,7 +1577,7 @@
 
 "@uniswap/sdk-core@^4.0.2", "@uniswap/sdk-core@git+https://github.com/etcswap/sdk-core.git#etcswap":
   version "4.0.10"
-  resolved "git+https://github.com/etcswap/sdk-core.git#c74889fbfd2bb1ee88c0e19bf81c7863d083b38a"
+  resolved "git+https://github.com/etcswap/sdk-core.git#75705f70da95a13c10ddf70022e5ebcd8b6b4c6c"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1586,30 +1586,17 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@uniswap/swap-router-contracts@1.1.0":
+"@uniswap/swap-router-contracts@^1.2.1", "@uniswap/swap-router-contracts@git+https://github.com/etcswap/swap-router-contracts.git#etcswap":
   version "1.1.0"
-  resolved "https://registry.npmjs.org/@uniswap/swap-router-contracts/-/swap-router-contracts-1.1.0.tgz"
-  integrity sha512-GPmpx1lvjXWloB95+YUabr3UHJYr3scnSS8EzaNXnNrIz9nYZ+XQcMaJxOKe85Yi7IfcUQpj0HzD2TW99dtolA==
+  resolved "git+https://github.com/etcswap/swap-router-contracts.git#d02515054efae1c8c1c8843b437138cb7966ca2f"
   dependencies:
     "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
     "@uniswap/v2-core" "1.0.1"
-    "@uniswap/v3-core" "1.0.0"
-    "@uniswap/v3-periphery" "1.3.0"
+    "@uniswap/v3-core" "git+https://github.com/etcswap/v3-core.git#etcswap"
+    "@uniswap/v3-periphery" "git+https://github.com/etcswap/v3-periphery.git#etcswap"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/swap-router-contracts@^1.2.1":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/swap-router-contracts/-/swap-router-contracts-1.3.0.tgz#8d555ca6d74b888d6e02a26ebb806ce315605f1f"
-  integrity sha512-iKvCuRkHXEe0EMjOf8HFUISTIhlxI57kKFllf3C3PUIE0HmwxrayyoflwAz5u/TRsFGYqJ9IjX2UgzLCsrNa5A==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.2-solc-0.7"
-    "@uniswap/v2-core" "1.0.1"
-    "@uniswap/v3-core" "1.0.0"
-    "@uniswap/v3-periphery" "1.4.1"
-    dotenv "^14.2.0"
-    hardhat-watcher "^2.1.1"
-
-"@uniswap/v2-core@1.0.1":
+"@uniswap/v2-core@1.0.1", "@uniswap/v2-core@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@uniswap/v2-core/-/v2-core-1.0.1.tgz"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
@@ -1630,29 +1617,9 @@
   resolved "https://registry.npmjs.org/@uniswap/v3-core/-/v3-core-1.0.0.tgz"
   integrity sha512-kSC4djMGKMHj7sLMYVnn61k9nu+lHjMIxgg9CDQT+s2QYLoA56GbSK9Oxr+qJXzzygbkrmuY6cwgP6cW2JXPFA==
 
-"@uniswap/v3-periphery@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/@uniswap/v3-periphery/-/v3-periphery-1.3.0.tgz"
-  integrity sha512-HjHdI5RkjBl8zz3bqHShrbULFoZSrjbbrRHoO2vbzn+WRzTa6xY4PWphZv2Tlcb38YEKfKHp6NPl5hVedac8uw==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
-    "@uniswap/lib" "^4.0.1-alpha"
-    "@uniswap/v2-core" "1.0.1"
-    "@uniswap/v3-core" "1.0.0"
-    base64-sol "1.0.1"
-    hardhat-watcher "^2.1.1"
-
-"@uniswap/v3-periphery@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-periphery/-/v3-periphery-1.4.1.tgz#b90f08b7386163c0abfd7258831caef6339c7862"
-  integrity sha512-Ab0ZCKOQrQMKIcpBTezTsEhWfQjItd0TtkCG8mPhoQu+wC67nPaf4hYUhM6wGHeFUmDiYY5MpEQuokB0ENvoTg==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.2-solc-0.7"
-    "@uniswap/lib" "^4.0.1-alpha"
-    "@uniswap/v2-core" "1.0.1"
-    "@uniswap/v3-core" "1.0.0"
-    base64-sol "1.0.1"
-    hardhat-watcher "^2.1.1"
+"@uniswap/v3-core@git+https://github.com/etcswap/v3-core.git#etcswap":
+  version "1.0.1"
+  resolved "git+https://github.com/etcswap/v3-core.git#d704d52586f3cb8df641b4f5ba0ebba00bf3130f"
 
 "@uniswap/v3-periphery@^1.0.1", "@uniswap/v3-periphery@^1.1.1":
   version "1.2.1"
@@ -1666,16 +1633,26 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
+"@uniswap/v3-periphery@git+https://github.com/etcswap/v3-periphery.git#etcswap":
+  version "1.4.4"
+  resolved "git+https://github.com/etcswap/v3-periphery.git#2989f69063736462d87bd9d3ba72a45b68054247"
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/lib" "^4.0.1-alpha"
+    "@uniswap/v2-core" "^1.0.1"
+    "@uniswap/v3-core" "git+https://github.com/etcswap/v3-core.git#etcswap"
+    base64-sol "1.0.1"
+
 "@uniswap/v3-sdk@git+https://github.com/etcswap/v3-sdk.git#etcswap":
   version "3.10.0"
-  resolved "git+https://github.com/etcswap/v3-sdk.git#34d6b4c1559a38d54b07840bdab93454eee357d9"
+  resolved "git+https://github.com/etcswap/v3-sdk.git#5f715de08040d07db5c22b062c78d41c489707d1"
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
     "@uniswap/sdk-core" "git+https://github.com/etcswap/sdk-core.git#etcswap"
-    "@uniswap/swap-router-contracts" "^1.2.1"
-    "@uniswap/v3-periphery" "^1.1.1"
-    "@uniswap/v3-staker" "1.0.0"
+    "@uniswap/swap-router-contracts" "git+https://github.com/etcswap/swap-router-contracts.git#etcswap"
+    "@uniswap/v3-periphery" "git+https://github.com/etcswap/v3-periphery.git#etcswap"
+    "@uniswap/v3-staker" "git+https://github.com/etcswap/v3-staker.git#etcswap"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
@@ -2643,11 +2620,6 @@ domexception@^1.0.1:
   integrity sha512-raigMkn7CJNNo6Ihro1fzG7wr3fHuYVytzquZKX5n0yizGsTcYgzdIUwj1X9pK0VvjeihV+XiclP+DjwbsSKug==
   dependencies:
     webidl-conversions "^4.0.2"
-
-dotenv@^14.2.0:
-  version "14.3.2"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-14.3.2.tgz#7c30b3a5f777c79a3429cb2db358eef6751e8369"
-  integrity sha512-vwEppIphpFdvaMCaHfCEv9IgwcxMljMw2TnAQBB4VWPvzXQLTb82jwmdOKzlEVUL3gNFT4l4TPKO+Bn+sqcrVQ==
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
