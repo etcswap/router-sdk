@@ -28,13 +28,14 @@
   "resolutions": {
     "@uniswap/sdk-core": "git+https://github.com/etcswap/sdk-core.git#etcswap",
     "@uniswap/swap-router-contracts": "git+https://github.com/etcswap/swap-router-contracts.git#etcswap",
+    "@uniswap/v2-sdk": "git+https://github.com/etcswap/v2-sdk.git#etcswap",
     "@uniswap/v3-sdk": "git+https://github.com/etcswap/v3-sdk.git#etcswap"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
     "@uniswap/sdk-core": "git+https://github.com/etcswap/sdk-core.git#etcswap",
     "@uniswap/swap-router-contracts": "git+https://github.com/etcswap/swap-router-contracts.git#etcswap",
-    "@uniswap/v2-sdk": "^3.2.0",
+    "@uniswap/v2-sdk": "git+https://github.com/etcswap/v2-sdk.git#etcswap",
     "@uniswap/v3-sdk": "git+https://github.com/etcswap/v3-sdk.git#etcswap"
   },
   "devDependencies": {
