@@ -1,7 +1,7 @@
 {
-  "name": "@uniswap/router-sdk",
-  "version": "1.6.0",
-  "description": "An sdk for routing swaps using Uniswap v2 and Uniswap v3.",
+  "name": "@_etcswap/router-sdk",
+  "version": "1.6.3",
+  "description": "An sdk for routing swaps using v2 and v3.",
   "publishConfig": {
     "access": "public"
   },
@@ -18,12 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/router-sdk.git"
+    "url": "https://github.com/etcswap/router-sdk.git"
   },
-  "keywords": [
-    "uniswap",
-    "ethereum"
-  ],
+  "keywords": [],
   "license": "MIT",
   "resolutions": {
     "@uniswap/sdk-core": "git+https://github.com/etcswap/sdk-core.git#etcswap",
