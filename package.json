@@ -1,6 +1,6 @@
 {
   "name": "@_etcswap/router-sdk",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "An sdk for routing swaps using v2 and v3.",
   "publishConfig": {
     "access": "public"

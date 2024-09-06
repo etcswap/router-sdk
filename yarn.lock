@@ -1577,7 +1577,7 @@
 
 "@uniswap/sdk-core@git+https://github.com/etcswap/sdk-core.git#etcswap":
   version "4.0.10"
-  resolved "git+https://github.com/etcswap/sdk-core.git#75705f70da95a13c10ddf70022e5ebcd8b6b4c6c"
+  resolved "git+https://github.com/etcswap/sdk-core.git#1662274116b501f9697e35da78dcf2e94edb8ef0"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1627,7 +1627,7 @@
 
 "@uniswap/v3-sdk@git+https://github.com/etcswap/v3-sdk.git#etcswap":
   version "3.10.0"
-  resolved "git+https://github.com/etcswap/v3-sdk.git#5f715de08040d07db5c22b062c78d41c489707d1"
+  resolved "git+https://github.com/etcswap/v3-sdk.git#f8a10d69e06b75c5b16d4ddf2f071bf4613a0cc2"
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
